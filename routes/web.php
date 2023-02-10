@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-use App\Http\Controllers\TestController;
+use App\Http\Controllers\Dashboard\TestController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,4 +16,4 @@ use App\Http\Controllers\TestController;
 */
 
 
-Route::get('/', [TestController::class, 'test']);
+Route::get('/', [TestController::class, 'index']);
